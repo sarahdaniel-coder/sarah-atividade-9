@@ -1,0 +1,47 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #25cf33;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 2em;
+    color:#070606; 
+}
+
+#Relogio {
+    font-size: 4em;
+    color: rgb(17, 14, 14);
+    margin-top: 20px;
+    padding: 20px;
+    display: inline-block;
+    border: 3px solid;
+    border-radius: 10px;
+    
+
+}
+
+body.manha {
+    background: linear-gradient(135deg, #87CEEB, #E0F7FA);
+    color: #333;
+}
+ 
+body.tarde {
+    background: linear-gradient(135deg, #FFA500, #FF4500);
+    color: #fff;
+}
+ 
+body.noite {
+    background: linear-gradient(135deg, #0F2027, #203A43, #2C5364);
+    color: #fff;
+}
+ 
+body.madrugada {
+    background: linear-gradient(135deg, #000428, #004e92);
+    color: #fff;
+}
+  
+
+
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Relógio Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Relogio Digital</h1>
+    <div id="Relogio">00:00:00</div>
+
+    <script src="script.js"></script>
+
+    <!DOCTYPE html>
+<html>
+<head>
+<title>Saudação Dinâmica</title>
+</head>
+<body>
+
+<h1 id="saudacao"></h1>
+<script>
+    var data = new Date();
+    var hora = data.getHours();
+    var saudacaoElement = document.getElementById("saudacao");
+  
+    if (hora >= 6 && hora < 12) {
+      saudacaoElement.textContent = "Bom dia!";
+    } else if (hora >= 12 && hora < 18) {
+      saudacaoElement.textContent = "Boa tarde!";
+    } else {
+      saudacaoElement.textContent = "Boa noite!";
+    }
+  </script>
+</body>
+</html>
